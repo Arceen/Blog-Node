@@ -1,0 +1,9 @@
+<div class="container py-md-5 container--narrow">
+  <% csrfErrors.forEach(function(message){ %>
+  <div class="alert alert-danger text-center"><%=message%></div>
+  <% }) %> <% errors.forEach(function(message){ %>
+  <div class="alert alert-danger text-center"><%=message%></div>
+  <% }) %> <% success.forEach(function(message){ %>
+  <div class="alert alert-success text-center"><%=message%></div>
+  <% }) %>
+</div>
